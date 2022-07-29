@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import BadExample from './composition/BadExample';
+import GoodExample from './composition/GoodExample';
+import HOC from './composition/HOC';
+import Hooks from './composition/Hooks';
+import RenderProps from './composition/RenderProps';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className='Container'>
+      {/* <BadExample /> */}
+      {/* <GoodExample /> */}
+      {/* <RenderProps /> */}
+      {/* <HOC /> */}
+      <Hooks />
+    </section>
   );
 }
 
